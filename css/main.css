@@ -1796,49 +1796,6 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.folio-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.folio-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    max-height: 200px; /* Adjust the height as needed */
-}
-
-.folio-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.folio-title {
-    margin: 0;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.folio-types {
-    font-size: 12px;
-}
-
 
 #portfolio {
 	background: #FFFFFF;
